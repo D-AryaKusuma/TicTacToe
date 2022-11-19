@@ -1,12 +1,7 @@
-@font-face {
-  font-family: "Lexend";
-  src: url("../font/Lexend-Regular.ttf");
-}
-
 * {
   padding: 0;
   margin: 0;
-  font-family: lexend;
+  font-family: "Itim", cursive;
 }
 
 body {
@@ -18,7 +13,6 @@ body {
   text-align: center;
   font-size: 40px;
   margin-top: 60px;
-  font-family: lexend;
 }
 
 .display {
@@ -54,12 +48,10 @@ body {
 
 .playerX {
   color: #09c372;
-  font-family: cursive;
 }
 
 .playerO {
   color: #498afb;
-  font-family: cursive;
 }
 
 .controls {
