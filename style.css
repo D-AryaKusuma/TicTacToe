@@ -4,10 +4,8 @@
   font-family: "Itin", cursive;
 }
 
-.background {
+body {
   background-color: #12181b;
-  height: 694px;
-  padding-top: 1px;
 }
 
 .title {
