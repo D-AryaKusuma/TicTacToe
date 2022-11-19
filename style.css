@@ -13,10 +13,22 @@ body {
 }
 
 .title {
-  color: red;
+  color: #fff;
   text-align: center;
   font-size: 45px;
   margin-top: 60px;
+}
+
+.title .t1 {
+  color: #09c372;
+}
+
+.title .t2 {
+  color: #498afb;
+}
+
+.title .t3 {
+  color: red;
 }
 
 .display {
