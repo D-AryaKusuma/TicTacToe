@@ -47,6 +47,26 @@ body {
   color: #09c372;
 }
 
+.title .t2 {
+  color: #498afb;
+}
+
+.title .t3 {
+  color: red;
+}
+
+.display {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.hide {
+  display: none;
+}
+
 .player {
   color: #fff;
   font-size: 50px;
@@ -76,26 +96,6 @@ body {
 
 .x:hover {
   color: #007241;
-}
-
-.title .t2 {
-  color: #498afb;
-}
-
-.title .t3 {
-  color: red;
-}
-
-.display {
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 25px;
-}
-
-.hide {
-  display: none;
 }
 
 .container {
