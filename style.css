@@ -179,8 +179,8 @@ body {
 
   .tile {
     border: 1px solid #fff;
-    min-width: 95px;
-    min-height: 95px;
+    min-width: 94px;
+    min-height: 94px;
     display: flex;
     justify-content: center;
     align-items: center;
