@@ -19,16 +19,19 @@ body {
   background: #09c37273;
   border-radius: 0px 0px 200px 0px;
 }
+
 .head h2 {
   font-size: 20px;
   font-weight: 200;
 }
+
 .head a {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
   transition: 0.25s;
 }
+
 .head a:hover {
   text-shadow: 3px 3px 3px #000;
 }
@@ -42,6 +45,37 @@ body {
 
 .title .t1 {
   color: #09c372;
+}
+
+.player {
+  color: #fff;
+  font-size: 50px;
+}
+
+.o {
+  color: #498afb;
+  background: none;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.o:hover {
+  color: #00286e;
+}
+
+.x {
+  color: #09c372;
+  background: none;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.x:hover {
+  color: #007241;
 }
 
 .title .t2 {
@@ -73,7 +107,7 @@ body {
 }
 
 .tile {
-  border: 1px solid white;
+  border: 1px solid #fff;
   min-width: 100px;
   min-height: 100px;
   display: flex;
@@ -116,7 +150,7 @@ body {
 }
 
 /* responsive */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .head {
     width: 215px;
   }
@@ -130,8 +164,8 @@ body {
   }
 
   .display {
-    color: white;
-    font-size: 25px;
+    color: #fff;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -144,7 +178,7 @@ body {
   }
 
   .tile {
-    border: 1px solid white;
+    border: 1px solid #fff;
     min-width: 95px;
     min-height: 95px;
     display: flex;
@@ -154,9 +188,14 @@ body {
     cursor: pointer;
   }
 
-  /*  .controls button {
-    padding: 6px;
-    border-radius: 6px;
-    font-size: 12px;
-  }*/
+  .controls button {
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: red;
+    transition: 0.25s;
+  }
 }

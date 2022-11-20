@@ -13,9 +13,10 @@
     <meta name="theme-color" content="#ffffff" />-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
-    <script src="./index.js"></script>
+
     <title>Tic-Tac-Toe</title>
   </head>
+
   <body>
     <div class="head">
       <h2>Dibuat oleh <a href="https://dedyarya.github.io/MyProfile/">Dedy Arya Kusuma</a><h2>
@@ -23,7 +24,13 @@
     <section class="title">
       <h1><span class="t1">T</span>ic <span class="t2">T</span>ac <span class="t3">T</span>oe</h1>
     </section>
-    <section class="display">Player <span class="display-player playerX">X</span> bermain</section>
+    <section class="display">
+      Player
+      <span class="display-player playerX">
+        <div id="chs"></div>
+      </span>
+      bermain
+    </section>
     <section class="container">
       <div class="tile"></div>
       <div class="tile"></div>
@@ -39,5 +46,7 @@
     <section class="controls">
       <button id="reset">Reset</button>
     </section>
+
+    <script src="./index.js"></script>
   </body>
 </html>
