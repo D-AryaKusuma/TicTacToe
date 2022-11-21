@@ -14,14 +14,14 @@ body {
 
 .head {
   color: #fff;
-  width: 300px;
+  width: 310px;
   padding: 7px 10px 7px 10px;
   background: #09c37273;
   border-radius: 0px 0px 200px 0px;
 }
 
 .head h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 200;
 }
 
@@ -152,10 +152,10 @@ body {
 /* responsive */
 @media (max-width: 992px) {
   .head {
-    width: 215px;
+    width: 255px;
   }
   .head h2 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 200;
   }
   .title {
