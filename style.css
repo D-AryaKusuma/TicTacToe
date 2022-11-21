@@ -152,10 +152,10 @@ body {
 /* responsive */
 @media (max-width: 992px) {
   .head {
-    width: 255px;
+    width: 265px;
   }
   .head h2 {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 200;
   }
   .title {
