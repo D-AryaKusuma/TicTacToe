@@ -21,6 +21,7 @@
     <div class="head">
       <h2>Dibuat oleh <a href="https://dedyarya.github.io/MyProfile/">Dedy Arya Kusuma</a><h2>
     </div>
+    <img src="img/moon.png" id="icon" />
     <section class="title">
       <h1><span class="t1">T</span>ic <span class="t2">T</span>ac <span class="t3">T</span>oe</h1>
     </section>
@@ -46,7 +47,18 @@
     <section class="controls">
       <button id="reset">Reset</button>
     </section>
-
     <script src="./index.js"></script>
+    <script>
+      var icon = document.getElementById("icon");
+
+      icon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+          icon.src = "img/sun.png";
+        } else {
+          icon.src = "img/moon.png";
+        }
+      };
+    </script>
   </body>
 </html>

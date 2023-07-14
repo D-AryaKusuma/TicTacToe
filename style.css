@@ -8,13 +8,40 @@
   font-family: "Itim";
 }
 
+:root {
+  --first-color: #fff;
+  --second-color: #2b2b2b;
+  --third-color: linear-gradient(180deg, #b8b8b8, #696969);
+  --bg-color: 3px 3px 5px rgba(0, 0, 0, 0.25), inset 1px 1px 3px rgba(255, 255, 255, 0.25), inset -1px -1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dark-theme {
+  --first-color: #2b2b2b;
+  --second-color: #fff;
+  --third-color: linear-gradient(180deg, #ffcc89, #af6900);
+  --bg-color: 3px 3px 5px rgba(255, 189, 135, 0.5), inset 1px 1px 3px rgba(255, 230, 0, 0.25), inset -1px -1px 2px rgb(255, 115, 0);
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  margin-top: -37px;
+  margin-left: 10px;
+  background: var(--third-color);
+  border-radius: 50%;
+  box-shadow: var(--bg-color);
+}
+
 body {
-  background-color: #12181b;
+  background-color: var(--first-color);
+  transition: 0.25s;
 }
 
 .head {
-  color: #fff;
-  width: 310px;
+  color: var(--second-color);
+  width: 350px;
   padding: 7px 10px 7px 10px;
   background: #09c37273;
   border-radius: 0px 0px 200px 0px;
@@ -23,21 +50,22 @@ body {
 .head h2 {
   font-size: 22px;
   font-weight: 200;
+  margin-left: 35px;
 }
 
 .head a {
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: var(--second-color);
   transition: 0.25s;
 }
 
 .head a:hover {
-  text-shadow: 3px 3px 3px #000;
+  text-shadow: 3px 3px 3px #666666;
 }
 
 .title {
-  color: #fff;
+  color: var(--second-color);
   text-align: center;
   font-size: 45px;
   margin-top: 15px;
@@ -56,7 +84,7 @@ body {
 }
 
 .display {
-  color: white;
+  color: var(--second-color);
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
@@ -68,7 +96,7 @@ body {
 }
 
 .player {
-  color: #fff;
+  color: var(--second-color);
   font-size: 50px;
 }
 
@@ -107,7 +135,7 @@ body {
 }
 
 .tile {
-  border: 1px solid #fff;
+  border: 1px solid var(--second-color);
   min-width: 100px;
   min-height: 100px;
   display: flex;
@@ -141,6 +169,7 @@ body {
   font-size: 25px;
   cursor: pointer;
   background-color: red;
+  border: 1px solid red;
   transition: 0.25s;
 }
 
@@ -164,7 +193,7 @@ body {
   }
 
   .display {
-    color: #fff;
+    color: var(--second-color);
     font-size: 25px;
     text-align: center;
   }
@@ -178,7 +207,7 @@ body {
   }
 
   .tile {
-    border: 1px solid #fff;
+    border: 1px solid var(--second-color);
     min-width: 94px;
     min-height: 94px;
     display: flex;
@@ -188,6 +217,14 @@ body {
     cursor: pointer;
   }
 
+  #icon {
+    width: 25px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 7px;
+  }
   /*  .controls button {
     padding: 6px;
     border-radius: 6px;
