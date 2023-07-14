@@ -18,17 +18,18 @@
 .dark-theme {
   --first-color: #2b2b2b;
   --second-color: #fff;
-  --third-color: linear-gradient(180deg, #ffcc89, #af6900);
+  --third-color: linear-gradient(180deg, #fdd29a, #da8300);
   --bg-color: 3px 3px 5px rgba(255, 189, 135, 0.5), inset 1px 1px 3px rgba(255, 230, 0, 0.25), inset -1px -1px 2px rgb(255, 115, 0);
 }
 
 #icon {
-  width: 30px;
+  width: 23px;
   cursor: pointer;
   display: flex;
   position: relative;
   margin-top: -37px;
   margin-left: 10px;
+  padding: 4px;
   background: var(--third-color);
   border-radius: 50%;
   box-shadow: var(--bg-color);
@@ -218,7 +219,7 @@ body {
   }
 
   #icon {
-    width: 25px;
+    width: 20px;
     cursor: pointer;
     display: flex;
     position: relative;
