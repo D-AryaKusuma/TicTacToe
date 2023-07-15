@@ -19,7 +19,7 @@
 }
 
 .dark-theme {
-  --left: 33px;
+  --left: 31px;
   --res-left: 29px;
   --first-color: #2b2b2b;
   --second-color: #fff;
@@ -30,8 +30,8 @@
 }
 
 #icon {
-  width: 65px;
-  height: 31px;
+  width: 64px;
+  height: 32px;
   position: relative;
   background: var(--bg);
   padding: 2px;
@@ -255,7 +255,6 @@ body {
   }
 
   .indicator {
-    margin-top: 1px;
     width: 19px;
     height: 19px;
     margin-left: var(--res-left);
